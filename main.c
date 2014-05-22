@@ -17,7 +17,8 @@ unsigned char decode_stack[4000]; /*  Массив декодируемых ст
 
 /*
  * Прототипы функций
- */
+*/
+ 
 void compress(FILE *input,FILE *output);
 void expand(FILE *input,FILE *output);
 int find_match(int hash_prefix,unsigned int hash_character);
